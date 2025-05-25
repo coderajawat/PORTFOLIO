@@ -1,282 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
-        <header class="header">
-            <nav class="navbar">
-                <a href="#logo" class="logo">Portfolio.</a>
-                <i class='bx bx-menu' id="menu-icon"></i>
-                <div class="nav-items">
-                    <a href="#home" class="active">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#education">Education</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact</a>
+      <header class="header">
+        <nav class="navbar">
+          <a href="#logo" class="logo">Portfolio.</a>
+          <i class="bx bx-menu" id="menu-icon"></i>
+          <div class="nav-items">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Khushi Rajawat</h1>
+          <h3>
+            And I'm a <span class="multiple-text">Frontend Developer</span>
+          </h3>
+          <p>
+            I'm a software developer and here is my portfolio website. Here
+            you'll learn about my journey as a software developer.
+          </p>
+          <div class="social-media">
+            <a
+              href="https://www.instagram.com/khushirajawat___/"
+              target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://x.com/KhushiRajawat11" target="_blank"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/khushi-rajawat-34309a211/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+          <a href="#contact" class="btn">Hire me</a>
+        </div>
+        <div class="home-image">
+          <img src="./images/home.png" alt="" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <img src="./images/home.png" alt="" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>Frontend Developer</h3>
+          <p>
+            <span>Hi, I'm Khushi Rajawat,</span> a passionate Frontend Developer
+            with a deep interest in creating intuitive and visually appealing
+            web applications. My journey in web development started in 2022 when
+            I began experimenting with custom Tumblr themes, learning HTML and
+            CSS to bring my ideas to life. Over time, I have expanded my skills
+            to include modern web technologies like React.js and Next.js, and
+            I'm always exploring new frameworks to stay ahead of the curve.
+            <br />
+            <br />
+            Currently, I am pursuing Bachelor of Technology in Information
+            Technology. I'm also fluent in Java programming and enjoy learning
+            different languages and technologies that help me deliver impactful
+            solutions.
+          </p>
+          <a href="./images/KHUSHI RAJAWAT_RESUME.pdf" class="btn" download
+            >Download CV</a
+          >
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">HTML</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">CSS</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Tailwind CSS</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">JavaScript</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">React</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progressbar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-6" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">70%</div>
+            <div class="text">Java</div>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+          <div class="education-column">
+            <h3 class="title">Education</h3>
+            <div class="education-box">
+              <div class="education-content">
+                <div class="content">
+                  <div class="year">
+                    <i class="bx bxs-calendar"></i>2022-2025
+                  </div>
+                  <h3>Bachelor of Technology (Information Technology)</h3>
+                  <p>
+                    Currently pursuing my Bachelors in Information Technology
+                    from Maharaja Surajmal Institute of Technology, Delhi.
+                    Focused on gaining expertise in web development and
+                    full-stack technologies.
+                  </p>
                 </div>
-            </nav>
-        </header>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, It's Me</h3>
-                <h1>Khushi Rajawat</h1>
-                <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
-                <p>
-                    I'm a software developer and here is my portfolio website.
-                    Here you'll learn about my journey as a software developer.
-                </p>
-                <div class="social-media">
-                    <a href="https://www.instagram.com/khushirajawat___/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://x.com/KhushiRajawat11" target="_blank"><i class='bx bxl-twitter'></i></a>
-                    <a href="https://www.linkedin.com/in/khushi-rajawat-34309a211/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+              </div>
+              <div class="education-content">
+                <div class="content">
+                  <div class="year">
+                    <i class="bx bxs-calendar"></i>2019-2022
+                  </div>
+                  <h3>Diploma in Plastics Mould Technology</h3>
+                  <p>
+                    Completed a diploma in Plastics Mould Technology at CIPET,
+                    gaining practical knowledge in mould design and
+                    manufacturing techniques. Additionally, developed
+                    proficiency in industry-standard software such as AutoCAD
+                    and Creo, enhancing my design and technical drawing
+                    capabilities.
+                  </p>
                 </div>
-                <a href="#" class="btn">Hire me</a>
+              </div>
+              <div class="education-content">
+                <div class="content">
+                  <div class="year">
+                    <i class="bx bxs-calendar"></i>2017-2018
+                  </div>
+                  <h3>12th</h3>
+                  <p>
+                    Successfully completed senior secondary education, focusing
+                    on building a solid academic foundation. This phase helped
+                    me develop analytical thinking and problem-solving skills,
+                    preparing me for further studies.
+                  </p>
+                </div>
+              </div>
+              <div class="education-content">
+                <div class="content">
+                  <div class="year">
+                    <i class="bx bxs-calendar"></i>2015-2016
+                  </div>
+                  <h3>10th</h3>
+                  <p>
+                    Completed secondary school with a strong academic record.
+                    This period helped build a comprehensive understanding of
+                    fundamental concepts and instilled the discipline needed for
+                    higher education and technical learning.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="home-image">
-                <img src="./images/home.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+          <div class="portfolio-cards">
+            <img src="images/portfolio1.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>Amazon Clone</h4>
+              <p>
+                A UI clone of Amazon's homepage, focusing on responsive design
+                and layout using only HTML and CSS...
+              </p>
+              <a href="https://coderajawat.github.io/Amazon-Clone/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-        </section>
-        <section class="about" id="about">
-            <div class="about-image">
-                <img src="./images/home.png" alt="">
+          </div>
+          <div class="portfolio-cards">
+            <img src="images/portfolio2.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>Shopping Cart</h4>
+              <p>
+                A clean and responsive shopping cart UI designed using only HTML
+                and CSS to showcase product...
+              </p>
+              <a href="https://coderajawat.github.io/Shopping-Cart/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-            <div class="about-content">
-                <h2 class="heading">About <span>Me</span></h2>
-                <h3>Frontend Developer</h3>
-                <p>
-                    <span>Hi, I'm Khushi Rajawat,</span> a passionate Frontend Developer with a deep
-                    interest in creating intuitive and visually appealing web applications.
-                    My journey in web development started in 2022 when I began experimenting
-                    with custom Tumblr themes, learning HTML and CSS to bring my ideas to life.
-                    Over time, I have expanded my skills to include modern web technologies like
-                    React.js and Next.js, and I'm always exploring new frameworks to stay ahead of
-                    the curve.
-                    <br>
-                    <br>
-                    Currently, I am pursuing Bachelor of Technology in Information Technology.
-                    I'm also fluent in Java programming and enjoy learning different languages
-                    and technologies that help me deliver impactful solutions.
-                </p>
-                <a href="./images/KHUSHI RAJAWAT_RESUME.pdf" class="btn" download>Download CV</a>
+          </div>
+          <div class="portfolio-cards">
+            <img src="images/portfolio3.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>Hotel - Home Page</h4>
+              <p>
+                A stylish and responsive hotel homepage UI created using only
+                HTML and CSS...
+              </p>
+              <a href="https://coderajawat.github.io/CodeSoft_Task1/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-        </section>
-        <section class="skills" id="skills">
-            <h2 class="heading">My <span>Skills</span></h2>
-            <div class="radial-bars">
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">90%</div>
-                    <div class="text">HTML</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">85%</div>
-                    <div class="text">CSS</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">75%</div>
-                    <div class="text">Bootstrap</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">65%</div>
-                    <div class="text">JavaScript</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-5" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">65%</div>
-                    <div class="text">Java</div>
-                </div>
-                <div class="radial-bar">
-                    <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle class="progressbar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-6" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">80%</div>
-                    <div class="text">SQL</div>
-                </div>
+          </div>
+          <div class="portfolio-cards">
+            <img src="images/portfolio4.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>My Gallery</h4>
+              <p>
+                A visually appealing gallery page UI designed with only HTML and
+                CSS, showcasing images...
+              </p>
+              <a href="https://coderajawat.github.io/My-Gallery/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-        </section>
-        <section class="education" id="education">
-            <h2 class="heading">My <span>Journey</span></h2>
-            <div class="education-row">
-                <div class="education-column">
-                    <h3 class="title">Education</h3>
-                    <div class="education-box">
-                        <div class="education-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2022-2025</div>
-                                <h3>Bachelor of Technology (Information Technology)</h3>
-                                <p>
-                                    Currently pursuing a B.Tech in Information Technology with a minor-specialization in
-                                    AI & ML at
-                                    Maharaja Surajmal Institute of Technology, Delhi. Focused on gaining expertise in
-                                    web development and full-stack technologies.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="education-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
-                                <h3>Diploma in Plastics Mould Technology</h3>
-                                <p>
-                                    Completed a diploma in Plastics Mould Technology at CIPET, gaining practical
-                                    knowledge in mould design and manufacturing techniques. Additionally, developed
-                                    proficiency in industry-standard software such as AutoCAD and Creo, enhancing my
-                                    design and technical drawing capabilities.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="education-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2017-2018</div>
-                                <h3>12th</h3>
-                                <p>
-                                    Successfully completed senior secondary education, focusing on building a solid
-                                    academic foundation. This phase helped me develop analytical thinking and
-                                    problem-solving skills, preparing me for further technical studies.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="education-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2015-2016</div>
-                                <h3>10th</h3>
-                                <p>
-                                    Completed secondary school with a strong academic record. This period helped build a
-                                    comprehensive understanding of fundamental concepts and instilled the discipline
-                                    needed for higher education and technical learning.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="portfolio-cards">
+            <img src="images/portfolio5.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>Rock Paper Scissor</h4>
+              <p>
+                An interactive rock-paper-scissors game created using HTML, CSS,
+                and JavaScript...
+              </p>
+              <a href="https://coderajawat.github.io/ROCK-PAPER-SCISSORS/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Projects</span></h2>
-            <div class="portfolio-container">
-                <div class="portfolio-cards">
-                    <img src="images/portfolio1.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Amazon Clone</h4>
-                        <p>
-                            A UI clone of Amazon's homepage, focusing on responsive design and layout using only HTML
-                            and CSS...
-                        </p>
-                        <a href="https://coderajawat.github.io/Amazon-Clone/"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-cards">
-                    <img src="images/portfolio2.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Shopping Cart</h4>
-                        <p>
-                            A clean and responsive shopping cart UI designed using only HTML and CSS to showcase product...
-                        </p>
-                        <a href="https://coderajawat.github.io/Shopping-Cart/"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-cards">
-                    <img src="images/portfolio3.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Hotel - Home Page</h4>
-                        <p>
-                            A stylish and responsive hotel homepage UI created using only HTML and CSS...
-                        </p>
-                        <a href="https://coderajawat.github.io/CodeSoft_Task1/"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-cards">
-                    <img src="images/portfolio4.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>My Gallery</h4>
-                        <p>
-                            A visually appealing gallery page UI designed with only HTML and CSS, showcasing images...
-                        </p>
-                        <a href="https://coderajawat.github.io/My-Gallery/"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-cards">
-                    <img src="images/portfolio5.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Rock Paper Scissor</h4>
-                        <p>
-                            An interactive rock-paper-scissors game created using HTML, CSS, and JavaScript...
-                        </p>
-                        <a href="https://coderajawat.github.io/ROCK-PAPER-SCISSORS/"><i
-                                class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-cards">
-                    <img src="images/portfolio6.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Portfolio</h4>
-                        <p>
-                            A personal portfolio website showcasing projects and skills, developed using HTML, CSS, and JavaScript...
-                        </p>
-                        <a href="https://coderajawat.github.io/PORTFOLIO/"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
+          </div>
+          <div class="portfolio-cards">
+            <img src="images/portfolio6.png" alt="" />
+            <div class="portfolio-layer">
+              <h4>Portfolio</h4>
+              <p>
+                A personal portfolio website showcasing projects and skills,
+                developed using HTML, CSS, and JavaScript...
+              </p>
+              <a href="https://coderajawat.github.io/PORTFOLIO/"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </div>
-        </section>
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me!</span></h2>
-            <form action="#">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
-                </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-        </section>
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2024 by Khushi Rajawat | All Rights Reserved</p>
-            </div>
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c0b14c3d-a353-46dc-8e08-db11ac795368">  
+          <div class="input-box">
+            <input type="text" name="fullName" placeholder="Full Name" required/>
+            <input type="email" name="email" placeholder="Email Address" required/>
+          </div>
+          <div class="input-box">
+            <input type="number" name="phone" placeholder="Mobile Number" required/>
+            <input type="text" name="subject" placeholder="Email Subject" required/>
+          </div>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2024 by Khushi Rajawat | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
     </div>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
